@@ -1,13 +1,13 @@
 # flu-covid-coadministration
 
-This repo contains raw data and analysis from:
+Data and code from:
 
-> Choosing sides: comparing ipsilateral and contralateral coadministration of influenza
-> and COVID-19 vaccines
+> **Ipsilateral and contralateral coadministration of influenza and COVID-19 vaccines produce similar
+antibody responses** _eBioMedicine_ 103, 105103 (2024) doi: [10.1016/j.ebiom.2024.105103](https://doi.org/10.1016/j.ebiom.2024.105103)
 
-By: David Pattinson (1), Peter Jester (1), Chunyang Gu (1), Lizheng Guan (1), Tammy Armbrust
-(1), Joshua G. Petrie (2), Jennifer P. King (2), Huong Q. McLean (2), Edward A. Belongia
-(2), Peter Halfmann (1), Gabriele Neumann (1), Yoshihiro Kawaoka (1,3,4,*)
+David Pattinson<sup>1</sup>, Peter Jester<sup>1</sup>, Chunyang Gu<sup>1</sup>, Lizheng Guan<sup>1</sup>, Tammy Armbrust
+<sup>1</sup>, Joshua G. Petrie<sup>2</sup>, Jennifer P. King<sup>2</sup>, Huong Q. McLean<sup>2</sup>, Edward A. Belongia
+<sup>2</sup>, Peter Halfmann<sup>1</sup>, Gabriele Neumann<sup>1</sup>, Yoshihiro Kawaoka<sup>1,3,4,*</sup>
 
 1. Department of Pathobiological Sciences, School of Veterinary Medicine, University of
    Wisconsin-Madison, Madison, WI 53706, USA
@@ -17,7 +17,11 @@ By: David Pattinson (1), Peter Jester (1), Chunyang Gu (1), Lizheng Guan (1), Ta
 4. Department of Special Pathogens, International Research Center for Infectious
    Diseases, Institute of Medical Science, University of Tokyo, Tokyo 108-0071, Japan
 
-## Contents
+![Fig 1](fig1.png) _Fig. 1_: Vaccine responses after ipsilateral (n = 35) and contralateral (n = 81)
+coadministration of COVID-19 and influenza vaccines. See
+[study](https://doi.org/10.1016/j.ebiom.2024.105103) for details.
+
+# Repository contents
 
 - [data.csv](data.csv) Contains long format data. Columns are:
   - `experiment`: `1` or `2` for the first or second replicate.
